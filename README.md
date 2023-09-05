@@ -1,6 +1,6 @@
-# 💪 GymPT: Personalized Fitness
+# GymTrainer: Personalized Fitness
 
-GymPT is your intelligent guide to personalized fitness, providing tailored workout plans, meal recommendations, and training philosophies based on individual goals and preferences.
+Gym Trainer is your intelligent guide to personalized fitness, providing tailored workout plans, meal recommendations, and training philosophies based on individual goals and preferences.
 
 ## Features
 
@@ -32,25 +32,4 @@ cd GymPT
 pip install -r requirements.txt
 streamlit run app.py
 ```
-## Contributing
-We welcome contributions from the fitness community. Feel free to submit issues, create pull requests, or reach out with suggestions.
-
-## Inspirations
-
-### Trainers and Bodybuilders
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://www.mensjournal.com/.image/t_share/MTk2MTM2MzY2Njk0NDA5NzMz/arnold-schwarzeneggers-highlight-reel.jpg" width="280" height="280" alt="Arnold Schwarzenegger">
-    </td>
-    <td align="center">
-      <img src="https://e1.pxfuel.com/desktop-wallpaper/649/217/desktop-wallpaper-jay-cutler-thumbnail.jpg" width="250" height="300" alt="Jay Cutler">
-    </td>
-    <td align="center">
-      <img src="https://thebodybuildingarchive.com/wp-content/uploads/2023/04/TomPlatz_PerfectForm.jpg" width="280" height="300" alt="Tom Platz"
-        <td>
-  </tr>
-</table>
-
 
