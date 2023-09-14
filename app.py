@@ -145,7 +145,7 @@ def generate_plan(goal, diet, fridge_items, training_styles, tdee, age):
 
     delay_time = 0.01
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5",
         messages=messages,
         temperature=0.666666666666666666666666666666420,
         stream=True,
