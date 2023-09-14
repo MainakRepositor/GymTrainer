@@ -50,6 +50,8 @@ def calculate_tdee(height, weight, activity_level, goal, age, units):
 # Title
 st.title('💪 GymPT: Personalized Fitness')
 
+st.sidebar.image("https://seeklogo.com/images/B/body-building-logo-386765D9C5-seeklogo.com.png")
+
 # Introduction
 st.markdown("""
 Welcome to GymPT, your personal guide to achieving the body of your dreams! 
@@ -58,8 +60,7 @@ We believe in the power of consistency, dedication, and intelligent training.
 Whether you're aiming for Herculean strength, chiseled aesthetics, or optimal health, 
 GymPT is designed to support you every step of the way. 
 Remember, the road to success is not about quick fixes—it's about hard work, 
-smart choices, and never giving up. Now, let's build your personalized plan! (If you have an OpenAI API key, please open the sidebar and insert it. For now, this app is free to use thanks to x.com/didntdrinkwater)
-""")
+smart choices, and never giving up. Now, let's build your personalized plan! """)
 
 # User Input for Workout Goals
 goal = st.selectbox('Choose Your Fitness Goal', ['Weight Loss', 'Muscle Gain', 'Maintenance'])
