@@ -7,11 +7,7 @@ st.set_page_config(
     page_icon="💪",
     layout="centered",
     initial_sidebar_state="collapsed",
-    menu_items={
-        "Get Help": "https://www.x.com/didntdrinkwater/",
-        "Report a bug": "https://www.younes.ca/contact",
-        "About": "# AI Comedy\nAn app that uses NLP to generate hilarious skits!",
-    },
+    
 )
 # Sidebar for OpenAI API Key Input
 st.sidebar.title('Insert OpenAI API Key to use GPT4')
